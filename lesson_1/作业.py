@@ -53,6 +53,10 @@ def print_my_name_card():
     """
     pass
 
+def filter_name():
+    # 使用列被生成式，过滤并打印出姓'李'的名字
+    names = ["李白", "吴小", "李红", "张三", "李四"]
+    pass
 
 if __name__ == '__main__':
     square()
@@ -61,3 +65,4 @@ if __name__ == '__main__':
     print_multiplication_table()
     print_abcdef()
     print_my_name_card()
+    filter_name()
